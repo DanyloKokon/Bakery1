@@ -1,0 +1,618 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+  * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+  }
+
+
+  .cont {
+      width: 1440px;
+      margin: 0 auto;
+      max-width: 100%;
+  }
+
+  .flex {
+      display: flex;
+  }
+
+  ul {
+      list-style: none;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  /* ==============================Header + Banner================== */
+
+  .bm {
+      background-image: url(/img/photo_2022-06-05_13-14-26\ 1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 1440px;
+      margin: 0 auto;
+      max-width: 100%;
+  }
+
+  .menu {
+      gap: 40px;
+      margin-left: 166px;
+      margin-top: 50px;
+      margin-bottom: 71px;
+  }
+
+  .menu>li>a {
+      font-family: 'Inter';
+      color: white;
+      font-weight: 100;
+      font-size: 20px;
+
+  }
+
+  h1 {
+      font-family: 'Inter';
+      font-weight: 200;
+      font-size: 70px;
+      line-height: 85px;
+      color: white;
+
+  }
+
+  .h1 {
+      width: 561px;
+      height: 170px;
+      margin-left: 156px;
+      margin-bottom: 22px;
+  }
+
+  .bt>p {
+      font-family: 'Inter';
+      font-weight: 300;
+      font-size: 21px;
+      line-height: 26px;
+      width: 571px;
+      height: 200px;
+      color: white;
+      margin-left: 170px;
+  }
+
+  .btn {
+      border: 1px solid #B47B48;
+      border-radius: 17px;
+      width: 207px;
+      height: 57px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      line-height: 29px;
+      font-weight: 700;
+      margin-top: 45px;
+      background-color: #B47B48;
+      color: #fff;
+  }
+
+  .btn1 {
+      border: 1px solid #C85312;
+      border-radius: 0px;
+      width: 79px;
+      height: 34px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      line-height: 29px;
+      font-weight: 700;
+      margin-top: 45px;
+      background-color: #C85312;
+      color: #fff;
+  }
+
+  .btn_default {
+      color: #fff;
+      background: #B47B48;
+      font-family: 'Inter';
+      font-weight: 300;
+  }
+
+  .btn_default1 {
+      color: #fff;
+      background: #C85312;
+      font-family: 'Inter';
+      font-weight: 800;
+  }
+
+  .btns {
+      margin-left: 167px;
+  }
+
+  /* =========================BUY======================== */
+
+  .amrcook {
+      width: 310px;
+      height: 225px;
+      background-color: #272727;
+      margin-top: 125px;
+      margin-left: 170px;
+  }
+
+  .cost>h2 {
+      font-family: 'Inter';
+      font-weight: 200;
+      font-size: 24px;
+      line-height: 29px;
+      color: white;
+      margin-top: 51px;
+      margin-bottom: 13px;
+      margin-left: 26px;
+  }
+
+  .cost>p {
+      font-family: 'Inter';
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: white;
+      margin-left: 8px;
+  }
+
+  .buttonbuy {
+      margin-bottom: 35px;
+      margin-left: 39px;
+  }
+
+  .cwc {
+      width: 310px;
+      height: 225px;
+      background-color: #272727;
+      margin-top: 125px;
+      margin-left: 104px;
+  }
+
+  .cost1>h2 {
+      font-family: 'Inter';
+      font-weight: 200;
+      font-size: 24px;
+      line-height: 29px;
+      color: white;
+      margin-top: 51px;
+      margin-bottom: 1px;
+      margin-left: 15px;
+  }
+
+  .cost1>p {
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: white;
+
+  }
+
+  .buttonbuy1 {
+      margin-bottom: 34px;
+  }
+
+  .bp {
+      width: 325px;
+      height: 225px;
+      background-color: #EBAD51;
+      margin-top: 125px;
+      margin-left: 120px;
+      margin-bottom: 10px;
+      background: linear-gradient(81deg, #000 -110.34%, rgba(0, 0, 0, 0) 80.32%),
+          #ebad51;
+  }
+
+  .cost2>h2 {
+      font-family: 'Inter';
+      font-weight: 200;
+      font-size: 22px;
+      line-height: 29px;
+      color: white;
+      margin-top: 25px;
+      margin-bottom: 13px;
+
+  }
+
+  .cost2>p {
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: white;
+
+  }
+
+  /* .buy{
+    margin-bottom: 36px;
+    
+} */
+
+  .ormen {
+      background-color: #272727;
+
+  }
+
+  /* ==================ORMEN======================= */
+  .ormen>h2 {
+      font-family: 'Inter';
+      font-weight: 100;
+      font-size: 64px;
+      line-height: 77px;
+      margin-left: 638px;
+      color: white;
+  }
+
+  .bread {
+      width: 328px;
+      height: 240px;
+      border: 1px solid #fff;
+      margin-left: 275px;
+
+  }
+
+  .btn3 {
+      border: 1px solid #B47B48;
+      border-radius: 17px;
+      width: 160px;
+      height: 41px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      line-height: 29px;
+      font-weight: 700;
+      margin-top: 9px;
+      background-color: #B47B48;
+      color: #fff;
+  }
+
+  .bread>h2 {
+      font-family: 'Inter';
+      font-weight: 700;
+      font-size: 25px;
+      color: #fff;
+      margin-left: 121px;
+  }
+
+  .bread>img {
+      margin-left: 20px;
+      margin-top: 14px;
+  }
+
+  .dreadbutton {
+      margin-bottom: 7px;
+  }
+
+  .bror {
+      margin-left: 355px;
+  }
+
+  .bakery {
+      width: 328px;
+      height: 240px;
+      border: 1px solid #fff;
+
+  }
+
+  .img {
+      margin-top: 10px;
+      margin-left: 25px;
+  }
+
+  .bror1 {
+      margin-left: 94px;
+  }
+
+  .bakerybutton {
+      margin-left: 198px;
+  }
+
+  .bakery>h2 {
+      font-family: 'Inter';
+      font-weight: 700;
+      font-size: 25px;
+      color: #fff;
+      margin-left: 121px;
+  }
+
+  .candc {
+      width: 328px;
+      height: 295px;
+      border: 1px solid #fff;
+      margin-left: 275px;
+  }
+
+  .candc>img {
+      margin-left: 40px;
+  }
+
+  .candc>h2 {
+      font-family: 'Inter';
+      font-weight: 700;
+      font-size: 25px;
+      color: #fff;
+      margin-left: 57px;
+  }
+
+  .candp {
+      width: 328px;
+      height: 270px;
+      margin-left: 197px;
+      border: 1px solid #fff;
+  }
+
+  .candp>h2 {
+      font-family: 'Inter';
+      font-weight: 700;
+      font-size: 25px;
+      color: #fff;
+      margin-left: 21px;
+  }
+
+  .candp>img {
+      margin-left: 40px;
+  }
+
+  .bror2 {
+      margin-left: 275px;
+  }
+
+  /* ===============================QOB================================= */
+
+  .qobw {
+
+      background-color: #272727;
+  }
+
+  .h2t>h2 {
+      font-family: 'Italiana', sans-serif;
+      color: #fff;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 75px;
+  }
+
+  .textback {
+      background-image: url(/img/Group\ 25.png);
+      background-repeat: repeat-x;
+  }
+
+  .h2t {
+      width: 501px;
+      height: 75px;
+      margin-left: 594px;
+      margin-bottom: 46px;
+  }
+
+  .brinf {
+      width: 291px;
+      height: 158px;
+      background-color: #636d7d;
+      margin-left: 221px;
+  }
+
+  .bml {
+      margin-left: 172px;
+  }
+
+  .coandfo {
+      font-family: 'Inter';
+      color: #fff;
+      font-weight: 500;
+      font-size: 24px;
+      margin-left: 13px;
+
+  }
+
+  .pos {
+      padding-top: 23px;
+  }
+
+  .brinf1 {
+      width: 291px;
+      height: 158px;
+      background-color: #636d7d;
+      margin-left: 33px;
+  }
+
+  .bml1 {
+      margin-left: 36px;
+      margin-top: 84px;
+  }
+
+  .brinf2 {
+      width: 291px;
+      height: 158px;
+      background-color: #636d7d;
+      margin-left: 90px;
+  }
+
+  .bml2 {
+      margin-top: 123px;
+      margin-left: 90px;
+  }
+
+
+  /* =======================WTAB============================ */
+  .wtab {
+      background-image: url(/img/photo_2022-06-23_21-45-36\ 1.jpg);
+      /* background: linear-gradient(to left,white,black, 50%) */
+  }
+
+  .h2wtab>h2 {
+      font-family: 'Italiana';
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 56px;
+      color: #fff;
+  }
+
+  .h2wtab {
+      width: 735px;
+      height: 114px;
+      padding-top: 54px;
+      margin-left: 165px;
+  }
+
+  .imgwtab {
+      margin-top: 132px;
+      margin-left: 252px;
+      gap: 171px;
+  }
+
+  .p {
+      font-family: 'Inter';
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #fff;
+  }
+
+  .ff>p {
+      margin-left: 61px;
+  }
+
+  .sdh>img {
+      margin-left: 25px;
+  }
+
+  /* ===================Where======================== */
+  .where {
+      background-color: #272727;
+  }
+
+  .h2where {
+      font-family: 'Italiana';
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 56px;
+      color: #fff;
+
+      padding-top: 66px;
+      margin-left: 160px;
+  }
+
+  .imgwere{
+    margin-left: 160px;
+    margin-top: 44px;
+  }
+
+  .last{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    margin-right: 90px;
+    margin-left: 132px ;
+    margin-top: 57px ;
+  }
+
+  .lastest{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+  }
+
+  .p1{
+    margin-top: 49px ;
+    margin-left: 132px;
+  }
+
+  .p2{
+    margin-top: 65px;
+    margin-left: 132px;
+  }
+
+  .p3{
+    margin-top: 24px;
+    margin-left: 132px;
+  }
+
+  .p4{
+    margin-left: 124px;
+    margin-top: 40px;
+  }
+
+  .p5{
+    margin-left: 160px;
+    
+  }
+
+  .margin{
+    color: #272727;
+    margin-top: 50px;
+  }
+
+  /* ======================Footer====================== */
+  .lps{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+  }
+
+  .foot{
+    background-color: #272727;
+  }
+
+  .footf{
+    gap: 150px ;
+  }
+
+
+  .first>h2{
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    width: 332px;
+    margin-top: 62px ;
+  }
+
+  .m{
+    margin-top: 41px ;
+  }
+
+  .second {
+    margin-top: 40px;
+    /* width: 142px; */
+  }
+
+  .third {
+    margin-top: 40px;
+  }
+
+  .fourth {
+    margin-top: 40px;
+  }
+
+  .first>p{
+    margin-top: 16px ;
+  }
+
+  .first{
+    margin-left: 160px;
+  }
+
+  .c{
+    font-family: 'Inter';
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 580px;
+    margin-top: 66px;
+    margin-bottom: 24px;
+  }
+
