@@ -30,7 +30,7 @@
   /* ==============================Header + Banner================== */
 
   .bm {
-      background-image: url(/img/photo_2022-06-05_13-14-26\ 1.png);
+      background-image: url(./img/photo_2022-06-05_13-14-26\ 1.png);
       background-repeat: no-repeat;
       background-size: cover;
       width: 1440px;
@@ -379,7 +379,7 @@
   }
 
   .textback {
-      background-image: url(/img/Group\ 25.png);
+      background-image: url(./img/Group\ 25.png);
       background-repeat: repeat-x;
   }
 
@@ -441,7 +441,7 @@
 
   /* =======================WTAB============================ */
   .wtab {
-      background-image: url(/img/photo_2022-06-23_21-45-36\ 1.jpg);
+      background-image: url(./img/photo_2022-06-23_21-45-36\ 1.jpg);
       /* background: linear-gradient(to left,white,black, 50%) */
   }
 
